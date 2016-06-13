@@ -1,0 +1,40 @@
+div.form-dates:before, div.form-dates:after {
+  visibility: hidden;
+     display: table;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+div.form-day, div.form-month {
+  width:80px !important;
+  min-width:80px !important;
+  float:left;
+}
+
+div.form-year {
+  width:100px !important;
+  min-width:100px !important;
+float:left;
+}
+
+
+div.form-day input, div.form-month input {
+  width:60px !important;
+  min-width:60px !important;
+}
+
+div.form-year input {
+  width:80px !important;
+  min-width:80px !important;
+}
+
+p.date-label {
+  font-size:18px;
+  line-height:22px;
+}
+
+p.form-error {
+  color:#bf0000;
+}
